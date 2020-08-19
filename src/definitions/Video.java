@@ -23,6 +23,18 @@ public class Video {
     // Transformer methods / Mutator methods
     //we can use the setter methods to the set the value of the field i.e read it.
 
+    // 3. Constructor Methods:
+    // we can use the constructor methods to initialize the attributes of an object.
+
+    public Video() {
+
+    }
+
+    /*
+    * public <noAccessModifier> <noReturnType> <NameOfTheClass() {}
+    *
+     */
+
     public void setVideoName(String videoName) {
         this.videoName = videoName;
     }
